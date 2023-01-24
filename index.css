@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: crimson;
+}
+
+body, .Input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    margin-top: 0px;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+    max-width: 90%;
+}
+
+
+.timer{
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.qoute-display{
+    margin-bottom: 2rem;
+}
+
+.Input{
+    background-color: transparent;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Input:focus{
+    border-color: black;
+}
