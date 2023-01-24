@@ -38,15 +38,33 @@ body, .Input{
 
 .qoute-display{
     margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .Input{
     background-color: transparent;
     border: 2px solid darkred;
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
+    width: 100%;
+    height: 18rem;
+    margin: auto;
+    resize: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .Input:focus{
     border-color: black;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: crimson;
+    text-decoration: underline;
 }
